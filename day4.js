@@ -102,8 +102,8 @@
 // 0, false, '', undefined, null, NaN
 // #############################################
 
-// console.log(1 > 2 > 3); // false
-// console.log(3 > 2 > 1); // false
+console.log(1 > 2 > 3); // false
+console.log(3 > 2 > 1); // false
 
 // console.log(console.log("vasanth"));
 

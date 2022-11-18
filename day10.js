@@ -1,7 +1,7 @@
 // // Arrays -> [] -> contiguous memory allocation --> mutable
-// let nums = [10, 20, 30, "vasanth", true, null, undefined];
-// console.log(nums, typeof nums);
-// console.log(nums[0], nums[1], nums[2]);
+let nums = [10, 20, 30, "vasanth", true, null, undefined];
+console.log(nums, typeof nums);
+console.log(nums[0], nums[1], nums[2]);
 // // indexed, searching, sort -> advantages
 // // add, delete -> disadvantage
 

@@ -1,0 +1,20 @@
+<!-- we may want to stop a page from getting 
+submitted, if the validations fail or we may 
+want to prevent event bubbling from happening. 
+In such cases if we use event.preventDefault() 
+it will prevent the default behaviour of the
+ event. -->
+
+<form onsubmit="display(event)">
+        Username: <input id="usr">
+        <button type="submit">Login</button>
+        <div id="msg"></div>
+</form>
+<script>
+    function display(e){
+        if(document.getElementById("usr").value.length<6){
+            document.getElementById("msg").innerText="Username must be atleast 6 chars"
+            e.preventDefault();
+        }
+    }
+</script>
